@@ -1,0 +1,45 @@
+# ===== 密钥与配置 =====
+# 绝对不能上传到 GitHub 的敏感文件
+.env
+.env.local
+*.key
+*.pem
+
+# ===== Python =====
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 打包产物
+build/
+dist/
+*.egg-info/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+.cache/
+
+# ===== AI 项目特定 =====
+# 向量数据库本地存储
+chroma_db/
+*.index
+*.pkl
