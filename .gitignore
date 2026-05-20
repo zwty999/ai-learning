@@ -39,7 +39,8 @@ desktop.ini
 .cache/
 
 # ===== AI 项目特定 =====
-# 向量数据库本地存储
 chroma_db/
+chroma_db_app/
+chroma_db*/
 *.index
 *.pkl
